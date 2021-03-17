@@ -13,6 +13,7 @@ function VideoMainPage() {
     useEffect(() => {
         Axios.post('/api/video/getVideos').then((res) => {
             if (res.data.success) {
+
                 setVideo(res.data.videos)
             } else {
                 alert("비디오 목록을 가져오는데 실패하였습니다.")

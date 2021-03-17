@@ -33,12 +33,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // support parsing of application/json type post data
 app.use(bodyParser.json());
 app.use(cookieParser());
-
 app.use('/api/users', require('./routes/users'));
-
 //MovieApp
 app.use('/api/movieApp', require('./routes/movieApp/favorite'))
-
 //VideoApp
 app.use('/api/video', require('./routes/videoApp/video'))
 app.use('/api/video/comment', require('./routes/videoApp/comment'))
