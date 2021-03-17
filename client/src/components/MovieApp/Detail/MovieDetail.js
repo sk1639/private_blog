@@ -6,7 +6,7 @@ import MovieInfo from './Section/MovieInfo';
 import { Row, Button } from 'antd'
 import GridCards from '../Common/GridCards';
 import Favorite from './Section/Favorite';
-
+import emptyImage from '../../images/generic-avatar.png'
 
 function MovieDetail(props) {
     //url 파라미터로 받아온 movieId
@@ -70,7 +70,7 @@ function MovieDetail(props) {
                                 {Casts && Casts.map((cast, index) => (
                                     <React.Fragment key={index}>
                                         <GridCards
-                                            image={cast.profile_path ? `${IMAGE_BASE_URL}w500${cast.profile_path}` : '/images/generic-avatar.png'}
+                                            image={cast.profile_path ? `${IMAGE_BASE_URL}w500${cast.profile_path}` : emptyImage}
                                             cast={cast}
                                         >
                                         </GridCards>

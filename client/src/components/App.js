@@ -10,6 +10,11 @@ import IntroPage from './views/IntroPage/IntroPage';
 import MovieMainPage from './MovieApp/Main/MovieMainPage';
 import MovieDetail from './MovieApp/Detail/MovieDetail';
 import FavoritePage from './MovieApp/FavoriteMovie/FavoritePage';
+import VideoMainPage from './VideoApp/Main/VideoMainPage';
+import VideoUploadPage from './VideoApp/UploadPage/VideoUploadPage';
+import VideoDetailPage from './VideoApp/VideoDetailPage/VideoDetailPage';
+import FavoriteVideo from './VideoApp/FavoriteVideo/FavoriteVideo';
+import ChatbotPage from './ChatbotApp/ChatbotPage';
 
 //null   Anyone Can go inside
 //true   only logged in user can go inside
@@ -30,7 +35,13 @@ function App() {
           <Route exact path="/MovieApp" component={Auth(MovieMainPage, null)} />
           <Route exact path="/movie/detail_:movieId" component={Auth(MovieDetail, null)} />
           <Route exact path="/movie/favorite" component={Auth(FavoritePage, null)} />
-
+          {/* 프로젝트 비디오앱 */}
+          <Route exact path="/VideoApp" component={Auth(VideoMainPage, null)} />
+          <Route exact path="/video/videoupload" component={Auth(VideoUploadPage, true)} />
+          <Route exact path="/video/detail_:videoId" component={Auth(VideoDetailPage, null)} />
+          <Route exact path="/video/favoritevideo" component={Auth(FavoriteVideo, true)} />
+          {/* 챗봇 */}
+          <Route exact path="/chatbot" component={Auth(ChatbotPage, null)} />
         </Switch>
       </div>
     </Suspense>

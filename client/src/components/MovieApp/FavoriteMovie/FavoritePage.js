@@ -70,7 +70,12 @@ function FavoritePage() {
 
     return (
         <div style={{ display: 'flex' }}>
-            <MovieLeftMenu selectedKey={'2'} />
+            <div style={{ position: 'fixed' }}>
+                <MovieLeftMenu selectedKey={'2'} />
+            </div>
+            {/* fixed를 위한 영역가드 */}
+            <div style={{ minWidth: '200px' }}>
+            </div>
             <div style={{ width: '85%', margin: '3rem auto' }}>
                 <h2> Favorite Movies</h2>
                 <hr />

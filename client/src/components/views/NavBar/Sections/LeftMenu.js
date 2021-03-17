@@ -15,7 +15,8 @@ function LeftMenu(props) {
       <SubMenu title={<span>Project</span>}>
         <MenuItemGroup title="React">
           <Menu.Item key="setting:1"><a href="/MovieApp">Movie App</a></Menu.Item>
-          <Menu.Item key="setting:2">Video App</Menu.Item>
+          <Menu.Item key="setting:2"><a href="/VideoApp">Video App</a></Menu.Item>
+          <Menu.Item key="setting:3"><a href="/chatbot">Chatbot App</a></Menu.Item>
         </MenuItemGroup>
         {/* <MenuItemGroup title="Item 2">
           <Menu.Item key="setting:3">Option 3</Menu.Item>

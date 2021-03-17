@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "quantum-potion-307402",
+  "private_key_id": "77bebb2c03da15e80e7a56257f1bb2af7a9bc784",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC6xBP0/pCxDFbM\nBxV9BRu9Q/XkIHVWrKVx7ochI1dL9UDYU2+mLbClOvg0+QrlnfcnsnL+i2kS4y8b\n5R6BKFPR/OITC7Yf3pYnPn5BJTEzqK5ykJHLCWAPi0CcVl0MRyWnRr9pgWC18mW8\nr+gsd8E8S9Pcgej1JphbMsQOO9zlIpmerreegSlfSivnl8ujsXjogXSsnjMzZB0C\npxR3PmIDNHRhd87AVOs6Vm5PToofT6XZcyvLjZyiB+GROu5+KdZZfLzw0wfXdHMB\nvawJ07lSbJgf1QS0IfL3bC3oTdX1x9+TyDme1JG897KesYk/r9FEajKpGqJP9KEE\niRnL70BDAgMBAAECggEAFGIO7YeU4gW/OVAym6zhjKPso6OZOsbn3YnTTJ4PSnZv\nR8y/XCsTYs0PRrTBaDL3xOjYXQh5BLsvqoM0c5MjpsDLKZn3G/5Oc+UBoXl+J62q\nsE0v5DFXPwsLF6TjTdI7/Uge3tRkaicUzGWEWMoPGFYMPr4c3xiBuz5MoGMPJiCT\nP1HWsne+Hwyrmpy98Q/wWR87HyCAWeMZHoV/t1ISfkYPYEZmVeiWHLv6ZZDaR/MM\n5S3iPOpBPdzq0lbmCJHIrVBM8bM7odhq6u7Lap8lPqt/s5B8logWC0OBlEcvMY8/\nrm/fOURDARZcuw+pglpJHuXiklYvp1SOID91gJSKlQKBgQDpmVKiha0c0qyStBx1\nAR+ThSL3KHW4fVH5ZL8jP52hMBoD0y6rVncBlXkpO1imPC9xRtbhW+iU7Ec+L9rY\nckE2Isq/SASg2xHOU6Wiz4vAlOGQRrkmGurPe03X1RjqOKr1YnDceJlqkpa0gCh2\nXJA5KhMLOr/dtPTby2ZlM6LwzQKBgQDMrQpnuqBzvn+wYk2F7EBZEI/tg3SuPMG7\nnqvbf4p/WWjfLQeitqkjGJfvyOoRBxESL8MFNE1jecKL5E+ytTW67bwXwGL6xFVx\n009Em+srKNsQwgjOFHnHrz7AT/1NNWktorENVDS8kL90EtFH7hCrg2ge0LNsoQEv\njKcEsf61TwKBgQCAMWjc0ZkfsSmNVJQtTZGDhlOa6TQ5K2TaBQSzlkyt0VTldnYt\nBsVGND4Kd4v9phevBV4UzDhFyaiLIv3pPEI3MD6tXBtWHwKVhOfoAhfCdrGWWIlw\ntOLZO+SLJmGG39RJ11zyUKh4iLt1kMMjuUZYaJOM3Q+/3ndlSykFLqIjnQKBgQCp\nSqtjltLmSXgWLYkPr5Sd1nwlqWiWQXzAsgJWII0uvoZmqjk5lboaZFovpFAuW1j8\nYPL+1/72u5x11xcwqn/RqJe+UYvM/R3rcyuKhSij3zwrBUMBKaB80O+nY8IQ3Y+s\nhnfJnY+tNFCXMoVV6IxzQNKbQmZWAGoZqU3wLUWPMwKBgDU0puIq0OPQ1Yawf1eV\neoSxudYkT4e7eBPRIPnn28+zKMF2CAy20F+LmH3f49xt29gUz1OPPK154PE2uJOK\nZYozbAc1/Hx5I49158tAIA8n4jaNCFQbADlo37HCeGjEU+7SVrW8N0HP1X9ITqtB\nLoug7GmhS+ocRhM3EZBsvZ/q\n-----END PRIVATE KEY-----\n",
+  "client_email": "mydialog-flow@quantum-potion-307402.iam.gserviceaccount.com",
+  "client_id": "100003971822847525770",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mydialog-flow%40quantum-potion-307402.iam.gserviceaccount.com"
+}
