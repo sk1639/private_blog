@@ -11,6 +11,7 @@ const projectId = config.googleProjectID
 const sessionId = config.dialogFlowSessionID
 const languageCode = config.dialogFlowSessionLanguageCode
 
+
 console.log(projectId, sessionId, languageCode)
 
 //Create a new session
